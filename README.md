@@ -6,17 +6,14 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,17 +24,23 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
+### Screenshots
 
 Below you can see the screenshots of my solution
 
 ![](./screenshots/screenshot1.jpg)
 ![](./screenshots/screenshot2.jpg)
+![](./screenshots/screenshot3.jpg)
+![](./screenshots/screenshot4.jpg)
+
+There weren't any photos of the actual design on the landscape view on mobile, by I took care of that anyway.
+
+![](./screenshots/screenshot5.jpg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://kamilp522.github.io/card-component)
+- Live Site URL: (https://kamilp522.github.io/Product-preview-card-made-with-flexbox-and-sass/)
 
 ## My process
 
@@ -48,61 +51,20 @@ Below you can see the screenshots of my solution
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Sass](https://sass-lang.com/) - preprocessor for css
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I used this exercise to practice responsive web design and get a better understanding of sass by incomporating it into my project (even though project wasn't big)
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- (https://www.youtube.com/watch?v=3R4fpnIAozs&t=457s&ab_channel=TheNetNinja) - Really nice video explaining how to incomporate media querries into the project while using sass.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@kamilp522](https://www.frontendmentor.io/profile/kamilp522)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+This is my first project submitted on the frontendmentor.io and I'm sure it's not last. I'm looking towards next challenges and hope to submit more solutions pretty soon.
