@@ -33,7 +33,7 @@ Below you can see the screenshots of my solution
 ![](./screenshots/screenshot3.jpg)
 ![](./screenshots/screenshot4.jpg)
 
-There weren't any photos of the actual design on the landscape view on mobile, by I took care of that anyway.
+There weren't any photos of the actual design on the landscape view on mobile, but I took care of that anyway.
 
 ![](./screenshots/screenshot5.jpg)
 
