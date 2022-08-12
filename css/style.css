@@ -182,7 +182,7 @@
   font-family: "Fraunces";
   font-size: 1.5rem;
   color: #3c8067;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .card_descriptions_container .product_prices .product_previous_price {
@@ -190,7 +190,8 @@
   text-decoration: line-through;
   color: #6c7289;
   margin-left: 15px;
-  font-size: 0.8875rem;
+  font-size: 0.625rem;
+  font-size: 0.75rem;
 }
 
 .card_descriptions_container .add_to_cart_btn {
