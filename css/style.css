@@ -36,6 +36,22 @@
           justify-content: center;
 }
 
+@media screen and (orientation: landscape) {
+  .card_background .card_container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card_background .card_container {
+    width: 36%;
+    height: 60%;
+  }
+}
+
 .card_background .card_container .card_img_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,10 +60,35 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 40%;
-  width: 100%;
+  width: auto;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   overflow: hidden;
+}
+
+@media screen and (orientation: landscape) {
+  .card_background .card_container .card_img_wrapper {
+    height: auto;
+    width: 40%;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card_background .card_container .card_img_wrapper {
+    width: 60%;
+  }
+}
+
+.card_background .card_container .card_img_wrapper .card_img {
+  content: url("../images/image-product-mobile.jpg");
+}
+
+@media screen and (min-width: 1024px) {
+  .card_background .card_container .card_img_wrapper .card_img {
+    content: url("../images/image-product-desktop.jpg");
+  }
 }
 
 .card_background .card_container .card_descriptions_container {
@@ -68,31 +109,64 @@
           justify-content: space-between;
 }
 
-.card_background .card_container .card_descriptions_container .product_type {
+@media screen and (orientation: landscape) {
+  .card_background .card_container .card_descriptions_container {
+    height: auto;
+    width: 55%;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card_background .card_container .card_descriptions_container {
+    padding: 1.75em 2.5em;
+  }
+}
+
+.card_descriptions_container .product_type {
   font-family: "Montserrat";
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
   color: #6c7289;
   margin-left: -2px;
 }
 
-.card_background .card_container .card_descriptions_container .product_name {
+@media screen and (min-width: 360px) {
+  .card_descriptions_container .product_type {
+    font-size: 0.75rem;
+  }
+}
+
+.card_descriptions_container .product_name {
   font-family: "Fraunces";
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #1c232b;
 }
 
-.card_background .card_container .card_descriptions_container .product_description {
-  font-family: "Montserrat";
-  font-size: 0.8875rem;
-  color: #6c7289;
-  line-height: 1.25rem;
+@media screen and (min-width: 360px) {
+  .card_descriptions_container .product_name {
+    font-size: 2rem;
+  }
 }
 
-.card_background .card_container .card_descriptions_container .product_prices {
+.card_descriptions_container .product_description {
+  font-family: "Montserrat";
+  font-size: 0.875rem;
+  color: #6c7289;
+  line-height: 1.125rem;
+}
+
+@media screen and (min-width: 360px) {
+  .card_descriptions_container .product_description {
+    line-height: 1.25rem;
+  }
+}
+
+.card_descriptions_container .product_prices {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,27 +178,42 @@
           align-items: center;
 }
 
-.card_background .card_container .card_descriptions_container .product_prices .product_price {
+.card_descriptions_container .product_prices .product_price {
   font-family: "Fraunces";
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #3c8067;
+  font-size: 2rem;
 }
 
-.card_background .card_container .card_descriptions_container .product_prices .product_previous_price {
+.card_descriptions_container .product_prices .product_previous_price {
   font-family: "Montserrat";
   text-decoration: line-through;
   color: #6c7289;
   margin-left: 15px;
+  font-size: 0.8875rem;
 }
 
-.card_background .card_container .card_descriptions_container .add_to_cart_btn {
+.card_descriptions_container .add_to_cart_btn {
   font-family: "Montserrat";
   font-weight: 700;
   letter-spacing: 0.35px;
   background-color: #3c8067;
   color: white;
-  height: 50px;
+  height: 40px;
   border: none;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 360px) {
+  .card_descriptions_container .add_to_cart_btn {
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card_descriptions_container .add_to_cart_btn:hover {
+    cursor: pointer;
+    background-color: #1c232b;
+  }
 }
 /*# sourceMappingURL=style.css.map */

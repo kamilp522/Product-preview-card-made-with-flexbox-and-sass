@@ -1,0 +1,80 @@
+.card_descriptions_container 
+
+    .product_type
+        font-family: $montserrat
+        font-weight: 500
+        text-transform: uppercase
+        letter-spacing: 5px
+        font-size: 0.625rem
+        color: $dark_grayish_blue
+        margin-left: -2px
+
+        @include mobile_medium 
+            font-size: 0.75rem
+
+
+
+    .product_name
+        font-family: $fraunces
+        font-size: 1.5rem
+        font-weight: 700
+        color: $very_dark_blue
+
+        @include mobile_medium 
+            font-size: 2rem
+
+
+
+    .product_description
+        font-family: $montserrat
+        font-size: 0.875rem
+        color: $dark_grayish_blue
+        line-height: 1.125rem
+
+        @include mobile_medium 
+            line-height: 1.25rem
+
+
+
+    .product_prices
+        display: flex
+        justify-content: left
+        align-items: center
+
+        .product_price
+            font-family: $fraunces
+            font-size: 1.5rem
+            color: $dark_cyan
+
+            @include mobile_medium 
+            font-size: 2rem
+
+
+        .product_previous_price
+            font-family: $montserrat
+            text-decoration: line-through
+            color: $dark_grayish_blue
+            margin-left: 15px
+
+            @include mobile_medium 
+            font-size: 0.8875rem
+
+
+    .add_to_cart_btn
+        font-family: $montserrat
+        font-weight: 700
+        letter-spacing: 0.35px
+        background-color: $dark_cyan
+        color: $white
+        height: 40px
+        border: none
+        border-radius: 10px
+
+        @include mobile_medium 
+            height: 50px
+
+        @include desktop_small
+            &:hover
+                cursor: pointer
+                background-color:  $very_dark_blue
+

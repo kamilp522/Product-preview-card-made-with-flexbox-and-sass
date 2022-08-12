@@ -1,0 +1,70 @@
+.card_background
+    background-color: $cream
+    width: 100%
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+
+    .card_container
+        width: 90%
+        height: 90%
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        @include landscape 
+            flex-direction: row
+
+        @include desktop_small 
+            width: 36%
+            height: 60%
+
+
+
+        .card_img_wrapper
+            display: flex
+            justify-content: center
+            height: 40%
+            width: auto
+            border-top-left-radius: $radius
+            border-top-right-radius: $radius
+            overflow: hidden
+          
+
+            @include landscape 
+                height: auto
+                width: 40%
+                border-bottom-left-radius: $radius
+                border-top-right-radius: 0
+
+            @include desktop_small 
+                 width: 60%
+
+            .card_img
+                content: url("../images/image-product-mobile.jpg")
+                
+                @include desktop_small 
+                    content: url("../images/image-product-desktop.jpg")
+                
+            
+
+        .card_descriptions_container
+            padding: 1.25em
+            height: 60%
+            background-color: $white
+            border-bottom-left-radius: $radius
+            border-bottom-right-radius: $radius
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+
+            @include landscape 
+                height: auto
+                width: 55%
+                border-bottom-left-radius: 0
+                border-top-right-radius: $radius
+          
+            @include desktop_small 
+                padding: 1.75em 2.5em
+                
