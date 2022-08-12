@@ -39,7 +39,7 @@ There weren't any photos of the actual design on the landscape view on mobile, b
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/product-card-made-with-flexbox-and-preprocessor-sass-nmmBzDZlRk)
 - Live Site URL: (https://kamilp522.github.io/Product-preview-card-made-with-flexbox-and-sass/)
 
 ## My process
