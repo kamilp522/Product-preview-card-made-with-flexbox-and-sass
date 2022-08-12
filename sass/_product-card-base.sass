@@ -16,8 +16,8 @@
         @include landscape 
             flex-direction: row
 
-        @include desktop_small 
-            width: 36%
+        @include desktop
+            width: 40%
             height: 60%
 
 
@@ -38,13 +38,13 @@
                 border-bottom-left-radius: $radius
                 border-top-right-radius: 0
 
-            @include desktop_small 
+            @include desktop
                  width: 60%
 
             .card_img
                 content: url("../images/image-product-mobile.jpg")
                 
-                @include desktop_small 
+                @include desktop 
                     content: url("../images/image-product-desktop.jpg")
                 
             
@@ -61,10 +61,10 @@
 
             @include landscape 
                 height: auto
-                width: 55%
+                width: 65%
                 border-bottom-left-radius: 0
                 border-top-right-radius: $radius
           
-            @include desktop_small 
-                padding: 1.75em 2.5em
+            @include desktop
+                padding: 1.75em 2.75em 1.75em 3.25em
                 
