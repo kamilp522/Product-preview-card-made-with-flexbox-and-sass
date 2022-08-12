@@ -67,4 +67,4 @@ I used this exercise to practice responsive web design and get a better understa
 
 ## Acknowledgments
 
-This is my first project submitted on the frontendmentor.io and I'm sure it's not last. I'm looking towards next challenges and hope to submit more solutions pretty soon.
+This is my first project submitted on the frontendmentor.io and I'm sure it's not last. I'm looking forward to the next challenge and hope to submit more solutions pretty soon.
