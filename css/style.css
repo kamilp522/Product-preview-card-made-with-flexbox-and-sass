@@ -123,7 +123,7 @@
 
 @media screen and (min-width: 1024px) {
   .card_background .card_container .card_descriptions_container {
-    padding: 1.75em 2.75em 1.75em 3.25em;
+    padding: 1.75em 3.5em 1.75em 3em;
   }
 }
 
@@ -146,13 +146,19 @@
 .card_descriptions_container .product_name {
   font-family: "Fraunces";
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c232b;
 }
 
 @media screen and (min-width: 360px) {
   .card_descriptions_container .product_name {
     font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card_descriptions_container .product_name {
+    padding-right: 1em;
   }
 }
 
