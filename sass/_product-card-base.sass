@@ -17,8 +17,8 @@
             flex-direction: row
 
         @include desktop
-            width: 40%
-            height: 60%
+            width: 42%
+            height: 55%
 
         .card_img_wrapper
             display: flex
@@ -36,14 +36,15 @@
                 border-top-right-radius: 0
 
             @include desktop
-                 width: 60%
+                 width: 45%
 
             .card_img
                 content: url("../images/image-product-mobile.jpg")
 
                 @include desktop 
                     content: url("../images/image-product-desktop.jpg")
-                          
+                    width: 100%
+                    object-fit: cover
 
         .card_descriptions_container
             padding: 1.25em
@@ -57,7 +58,7 @@
 
             @include landscape 
                 height: auto
-                width: 65%
+                width: 55%
                 border-bottom-left-radius: 0
                 border-top-right-radius: $radius
           
